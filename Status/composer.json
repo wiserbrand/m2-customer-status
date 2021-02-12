@@ -1,0 +1,22 @@
+{
+    "name": "mi/module-status",
+    "description": "",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "WiserBrand",
+            "email": "denis.misaniuk@wiserbrand.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Mi\\Status\\": ""
+        }
+    }
+}
